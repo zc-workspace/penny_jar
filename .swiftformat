@@ -1,0 +1,29 @@
+# SwiftFormat 配置 —— penny_jar
+# 文档：https://github.com/nicklockwood/SwiftFormat
+
+--swiftversion 6.0
+
+# 作用范围
+--exclude .build,DerivedData,Src/Resources
+
+# 缩进与换行
+--indent 4
+--maxwidth 140
+--wraparguments before-first
+--wrapparameters before-first
+--wrapcollections before-first
+--closingparen balanced
+
+# 语法风格
+--self remove
+--importgrouping testable-bottom
+--commas inline
+--trimwhitespace always
+--semicolons never
+--ranges no-space
+--emptybraces no-space
+
+# 关闭与 SwiftUI 链式修饰符冲突的规则
+--disable wrapMultilineStatementBraces
+--enable isEmpty
+--enable sortImports

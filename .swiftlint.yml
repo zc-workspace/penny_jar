@@ -1,0 +1,70 @@
+# SwiftLint 0.65.0 配置 —— penny_jar
+# 文档：https://realm.github.io/SwiftLint/
+
+included:
+  - Src
+  - Tests
+
+excluded:
+  - .build
+  - DerivedData
+  - "**/*.generated.swift"
+  - Src/Resources
+
+# 关闭过于苛刻、与 SwiftUI 惯用写法冲突的规则
+disabled_rules:
+  - trailing_whitespace
+  - todo
+  - line_length            # 由下方自定义阈值接管
+  - type_name              # SwiftUI View 命名较长，单独放宽
+
+# 选择性开启的可选规则
+opt_in_rules:
+  - empty_count
+  - closure_spacing
+  - contains_over_first_not_nil
+  - first_where
+  - sorted_first_last
+  - unused_import
+  - vertical_parameter_alignment_on_call
+  - redundant_nil_coalescing
+  - toggle_bool
+  - fatal_error_message
+
+line_length:
+  warning: 140
+  error: 200
+  ignores_comments: true
+  ignores_urls: true
+
+file_length:
+  warning: 500
+  error: 800
+
+function_body_length:
+  warning: 80
+  error: 150
+
+type_body_length:
+  warning: 350
+  error: 500
+
+cyclomatic_complexity:
+  warning: 15
+  error: 25
+
+identifier_name:
+  min_length: 1          # 允许 id / x / y 等短命名
+  max_length:
+    warning: 50
+    error: 60
+  excluded:
+    - id
+    - to
+    - x
+    - y
+
+nesting:
+  type_level: 2
+
+reporter: "xcode"
