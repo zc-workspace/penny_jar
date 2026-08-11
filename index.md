@@ -69,3 +69,13 @@
 4. **每个被测源码文件** 的测试放到 `Tests/` 中与 `Src/` **相同的相对路径**下（如 `Src/Domain/UseCases/Finance.swift` → `Tests/Domain/UseCases/FinanceTests.swift`）。
 5. **测试替身与工厂** 统一放 `Tests/Mocks/`。
 6. **新增目录** 必须同步在本 `index.md` 补充映射条目。
+
+---
+
+## 四、工程约定目录（非 Src/Tests）
+
+| Path | 用途 | 说明 |
+|------|------|------|
+| `docs/testing_requirements.md` | 测试规范（强制 Instructions） | 单元测试全覆盖、语句+分支覆盖率 100%、异常/边界/等价类用例、回归零破坏、Definition of Done。生成/修改代码必须遵守 |
+| `.claude/settings.json` | Agent 门禁配置 | 注册 PreToolUse Hook，提交前强制跑测试 |
+| `.claude/hooks/pre-commit-swift-tests.sh` | 提交前测试门禁脚本 | 拦截 `git push`/`gh pr create`/`git commit`，先跑全部 Swift 测试，失败则阻断 |
