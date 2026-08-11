@@ -1,0 +1,901 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02CC4FB1DD5C417D8B590060 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF1609CE9E2F95BCEE29250 /* Enums.swift */; };
+		11B9E4F651DD8E4179AB8311 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = B507597EAA63CBA295F40763 /* Account.swift */; };
+		202A24C1A67897E1ECA3B435 /* RepositoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DCC7ADDDCA18497AA02652 /* RepositoryTests.swift */; };
+		6762A66515D61C355F271AE2 /* PennyJarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C24151C3DE3B971A6DCC98 /* PennyJarApp.swift */; };
+		6E759FB91B0274DD3498E364 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EE1B8358BD18D666B15C52B /* Repository.swift */; };
+		777297821871FE33D4542164 /* Member.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67C9BBB6A589CB9D3DEFBEF /* Member.swift */; };
+		8D39179875ACE2390B84B4D0 /* Ledger.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C39B7D53BFD59D4F60A5ED /* Ledger.swift */; };
+		9131480C6D8C5694FF58566C /* Finance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85778883882924B6F3F486F8 /* Finance.swift */; };
+		95E8112822B9865395A2B92C /* FinanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A495FAC0DE3F2459409A9470 /* FinanceTests.swift */; };
+		A7E4E091BA3E1AC91781388B /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B975D20D7D8A9707E3EE24F /* Transaction.swift */; };
+		B1FD33AACEDD64D7D19AE51B /* Budget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A49BF2A43C9332F9D555B28 /* Budget.swift */; };
+		B9401EA3E241DEC759DBCF6A /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AACB09E0F77B6B536FA3FAB /* Category.swift */; };
+		B9F3D291D4563F98F030EC30 /* ModelContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36FA71E9830DBD7F03484F7 /* ModelContainer.swift */; };
+		C0263EE4D806DB551CFA2D93 /* SeedData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66143AFDB04168ED18445D0 /* SeedData.swift */; };
+		CC7C91902BC199CE407569EF /* EntityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E420FAD7757AE3CA52882770 /* EntityTests.swift */; };
+		DA3567985975B596D0D72057 /* TestFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CDD758F721EA288D818D380 /* TestFactory.swift */; };
+		DCE12EFEA664560FD8B55603 /* RootTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12796C1D4295219A19CF1D8 /* RootTabView.swift */; };
+		F8B16FFEFEC04E7F9EB20882 /* PersistenceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A8B5EDFCE67FE8411E3970 /* PersistenceTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F0525DC043DF99A46F400FBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6DB24ADDDACD37AD8ADE7088 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A7188916DD57AF391030A81;
+			remoteInfo = PennyJar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		005B9437E1542681BF52840C /* .gitkeep */ = {isa = PBXFileReference; path = .gitkeep; sourceTree = "<group>"; };
+		0BB3F54E24D16E7806240CF2 /* .gitkeep */ = {isa = PBXFileReference; path = .gitkeep; sourceTree = "<group>"; };
+		0F8A78E2080091DA27E18292 /* .gitkeep */ = {isa = PBXFileReference; path = .gitkeep; sourceTree = "<group>"; };
+		112C8F34C07915F1A64B0259 /* .gitkeep */ = {isa = PBXFileReference; path = .gitkeep; sourceTree = "<group>"; };
+		1CDD758F721EA288D818D380 /* TestFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestFactory.swift; sourceTree = "<group>"; };
+		20C24151C3DE3B971A6DCC98 /* PennyJarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PennyJarApp.swift; sourceTree = "<group>"; };
+		24088A3D4BA696F58CB00AD5 /* .gitkeep */ = {isa = PBXFileReference; path = .gitkeep; sourceTree = "<group>"; };
+		288AE2C4E6D7AF1E7AB13FD3 /* .gitkeep */ = {isa = PBXFileReference; path = .gitkeep; sourceTree = "<group>"; };
+		2AACB09E0F77B6B536FA3FAB /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		3F7B197F0A62FC9D23F02A66 /* PennyJar.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = PennyJar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		45488C8128F9AA2F9A16E676 /* .gitkeep */ = {isa = PBXFileReference; path = .gitkeep; sourceTree = "<group>"; };
+		4B975D20D7D8A9707E3EE24F /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		522980588D2AFC3CD65A1C06 /* .gitkeep */ = {isa = PBXFileReference; path = .gitkeep; sourceTree = "<group>"; };
+		539007AA59D5965185D42610 /* .gitkeep */ = {isa = PBXFileReference; path = .gitkeep; sourceTree = "<group>"; };
+		563D81462D30C82F413EAC6E /* .gitkeep */ = {isa = PBXFileReference; path = .gitkeep; sourceTree = "<group>"; };
+		566AC9217FE1D8637455EA69 /* .gitkeep */ = {isa = PBXFileReference; path = .gitkeep; sourceTree = "<group>"; };
+		699A16FBD3C3C1DFDCEB894F /* .gitkeep */ = {isa = PBXFileReference; path = .gitkeep; sourceTree = "<group>"; };
+		6BF1609CE9E2F95BCEE29250 /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		6E83ACABDA427B280F46518E /* .gitkeep */ = {isa = PBXFileReference; path = .gitkeep; sourceTree = "<group>"; };
+		70B791F8ECAEFDE19B2FEAC8 /* .gitkeep */ = {isa = PBXFileReference; path = .gitkeep; sourceTree = "<group>"; };
+		74DCC7ADDDCA18497AA02652 /* RepositoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryTests.swift; sourceTree = "<group>"; };
+		77B09A373375739DF8D94419 /* .gitkeep */ = {isa = PBXFileReference; path = .gitkeep; sourceTree = "<group>"; };
+		79B56556A1F2AD8B5E43919F /* .gitkeep */ = {isa = PBXFileReference; path = .gitkeep; sourceTree = "<group>"; };
+		7A49BF2A43C9332F9D555B28 /* Budget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Budget.swift; sourceTree = "<group>"; };
+		7BEE994077CC030E3EB232BA /* .gitkeep */ = {isa = PBXFileReference; path = .gitkeep; sourceTree = "<group>"; };
+		7EE1B8358BD18D666B15C52B /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		85778883882924B6F3F486F8 /* Finance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Finance.swift; sourceTree = "<group>"; };
+		8C987E9A49669C31C0C7276E /* .gitkeep */ = {isa = PBXFileReference; path = .gitkeep; sourceTree = "<group>"; };
+		9047239C8DD910622416C7FB /* .gitkeep */ = {isa = PBXFileReference; path = .gitkeep; sourceTree = "<group>"; };
+		92AF04A3DE6BE0294A4C0B83 /* .gitkeep */ = {isa = PBXFileReference; path = .gitkeep; sourceTree = "<group>"; };
+		981426972A01A7E5D466F6F1 /* .gitkeep */ = {isa = PBXFileReference; path = .gitkeep; sourceTree = "<group>"; };
+		99866F768E7604E133506B7C /* .gitkeep */ = {isa = PBXFileReference; path = .gitkeep; sourceTree = "<group>"; };
+		A189E9E307CC8144BE3FBE97 /* .gitkeep */ = {isa = PBXFileReference; path = .gitkeep; sourceTree = "<group>"; };
+		A495FAC0DE3F2459409A9470 /* FinanceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceTests.swift; sourceTree = "<group>"; };
+		AB319BAF9ED0F91BC12FE5F1 /* .gitkeep */ = {isa = PBXFileReference; path = .gitkeep; sourceTree = "<group>"; };
+		AC6E8438F326E101F0A12C26 /* .gitkeep */ = {isa = PBXFileReference; path = .gitkeep; sourceTree = "<group>"; };
+		AFE4DBBCDEF6969943E58FDF /* PennyJarTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = PennyJarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B507597EAA63CBA295F40763 /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		B5E9E8501D4E64A14EE5E5F2 /* .gitkeep */ = {isa = PBXFileReference; path = .gitkeep; sourceTree = "<group>"; };
+		C9C39B7D53BFD59D4F60A5ED /* Ledger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ledger.swift; sourceTree = "<group>"; };
+		CD5231A8AB718C0D9205F53F /* .gitkeep */ = {isa = PBXFileReference; path = .gitkeep; sourceTree = "<group>"; };
+		CF2E2649CF95A4E180CDF07C /* .gitkeep */ = {isa = PBXFileReference; path = .gitkeep; sourceTree = "<group>"; };
+		D5A8B5EDFCE67FE8411E3970 /* PersistenceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceTests.swift; sourceTree = "<group>"; };
+		D9B2BA1499EDA3CF8258DE97 /* .gitkeep */ = {isa = PBXFileReference; path = .gitkeep; sourceTree = "<group>"; };
+		DB654737477E5454862340B7 /* .gitkeep */ = {isa = PBXFileReference; path = .gitkeep; sourceTree = "<group>"; };
+		DD2C0404C340A8EF3546A8FE /* .gitkeep */ = {isa = PBXFileReference; path = .gitkeep; sourceTree = "<group>"; };
+		E001F608BF71BE8DB0DFEC04 /* .gitkeep */ = {isa = PBXFileReference; path = .gitkeep; sourceTree = "<group>"; };
+		E179CDEBC3F2E03646F36668 /* .gitkeep */ = {isa = PBXFileReference; path = .gitkeep; sourceTree = "<group>"; };
+		E287C5987968BE1092297F6A /* .gitkeep */ = {isa = PBXFileReference; path = .gitkeep; sourceTree = "<group>"; };
+		E420FAD7757AE3CA52882770 /* EntityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntityTests.swift; sourceTree = "<group>"; };
+		E6397E29F36E791A4A50BAFC /* .gitkeep */ = {isa = PBXFileReference; path = .gitkeep; sourceTree = "<group>"; };
+		E66143AFDB04168ED18445D0 /* SeedData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeedData.swift; sourceTree = "<group>"; };
+		EE50688075AD505581BEB797 /* .gitkeep */ = {isa = PBXFileReference; path = .gitkeep; sourceTree = "<group>"; };
+		F12796C1D4295219A19CF1D8 /* RootTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabView.swift; sourceTree = "<group>"; };
+		F36FA71E9830DBD7F03484F7 /* ModelContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelContainer.swift; sourceTree = "<group>"; };
+		F67C9BBB6A589CB9D3DEFBEF /* Member.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Member.swift; sourceTree = "<group>"; };
+		F8E3B357D87A1724865A8983 /* .gitkeep */ = {isa = PBXFileReference; path = .gitkeep; sourceTree = "<group>"; };
+		FAB5B77C085BA3BAE16E61E9 /* .gitkeep */ = {isa = PBXFileReference; path = .gitkeep; sourceTree = "<group>"; };
+		FAE3F68EA5CEE200DE52E98A /* .gitkeep */ = {isa = PBXFileReference; path = .gitkeep; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		04F84B826F6F3BEE54C3C519 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				45488C8128F9AA2F9A16E676 /* .gitkeep */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		058B1B522F09C65F2114BEF1 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				112C8F34C07915F1A64B0259 /* .gitkeep */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		067A3E06CFDE61055BB7ADE4 /* Reports */ = {
+			isa = PBXGroup;
+			children = (
+				92AF04A3DE6BE0294A4C0B83 /* .gitkeep */,
+			);
+			path = Reports;
+			sourceTree = "<group>";
+		};
+		10CF962BD24A2AA7695C00C9 = {
+			isa = PBXGroup;
+			children = (
+				FBD34460E16F52C331AF4BF7 /* Src */,
+				D5F8EA0009649CA903C1DA15 /* Tests */,
+				560EAA4F2B79CB49C0DF91F4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		11B6CC1AED7CADD6F4E81664 /* Reports */ = {
+			isa = PBXGroup;
+			children = (
+				99866F768E7604E133506B7C /* .gitkeep */,
+			);
+			path = Reports;
+			sourceTree = "<group>";
+		};
+		1249FB8F8453780F27ABC6E3 /* Export */ = {
+			isa = PBXGroup;
+			children = (
+				DD2C0404C340A8EF3546A8FE /* .gitkeep */,
+			);
+			path = Export;
+			sourceTree = "<group>";
+		};
+		170160CB197C4850F2E95E15 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				981426972A01A7E5D466F6F1 /* .gitkeep */,
+				20C24151C3DE3B971A6DCC98 /* PennyJarApp.swift */,
+				F12796C1D4295219A19CF1D8 /* RootTabView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		1A7E2ECE5A8C8F300D679C53 /* Record */ = {
+			isa = PBXGroup;
+			children = (
+				CD5231A8AB718C0D9205F53F /* .gitkeep */,
+			);
+			path = Record;
+			sourceTree = "<group>";
+		};
+		1C6A6E29E8434F800F7A7C2E /* Transactions */ = {
+			isa = PBXGroup;
+			children = (
+				539007AA59D5965185D42610 /* .gitkeep */,
+			);
+			path = Transactions;
+			sourceTree = "<group>";
+		};
+		21D5E7CB7C73104A0898C7C0 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				5A00D99008C2EBB8502C4568 /* Accounts */,
+				8ED74D1DD358877A7CFCD3A8 /* Books */,
+				2821E418C297F02D30548CA2 /* Budget */,
+				058B1B522F09C65F2114BEF1 /* Home */,
+				64A5226115923F6ED8E5E8DD /* Mine */,
+				1A7E2ECE5A8C8F300D679C53 /* Record */,
+				067A3E06CFDE61055BB7ADE4 /* Reports */,
+				1C6A6E29E8434F800F7A7C2E /* Transactions */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		21F83920B2861C919996ADF4 /* Record */ = {
+			isa = PBXGroup;
+			children = (
+				AC6E8438F326E101F0A12C26 /* .gitkeep */,
+			);
+			path = Record;
+			sourceTree = "<group>";
+		};
+		22FD49A817E54671E0DBA070 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				77B09A373375739DF8D94419 /* .gitkeep */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2821E418C297F02D30548CA2 /* Budget */ = {
+			isa = PBXGroup;
+			children = (
+				566AC9217FE1D8637455EA69 /* .gitkeep */,
+			);
+			path = Budget;
+			sourceTree = "<group>";
+		};
+		2DF76F8A454131BDC1EE139C /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				79B56556A1F2AD8B5E43919F /* .gitkeep */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		323138D0155852532982AAD5 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				7F0BBAD6A30107634DAE275B /* Entities */,
+				1249FB8F8453780F27ABC6E3 /* Export */,
+				8D5B88E80B47EA666239FC7C /* Persistence */,
+				3E7391D476C481D3A8C8DF63 /* Repositories */,
+				715D2A57C6DB0EA9DD27D6FC /* UseCases */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		3E7391D476C481D3A8C8DF63 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				DB654737477E5454862340B7 /* .gitkeep */,
+				7EE1B8358BD18D666B15C52B /* Repository.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		45F9F1FD836E0FFF2E7FB40D /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+				7BEE994077CC030E3EB232BA /* .gitkeep */,
+				A495FAC0DE3F2459409A9470 /* FinanceTests.swift */,
+			);
+			path = UseCases;
+			sourceTree = "<group>";
+		};
+		474EC765B5895FCD6E196599 /* Formatters */ = {
+			isa = PBXGroup;
+			children = (
+				70B791F8ECAEFDE19B2FEAC8 /* .gitkeep */,
+			);
+			path = Formatters;
+			sourceTree = "<group>";
+		};
+		4AC029E1808B5AE9F3F279AA /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				288AE2C4E6D7AF1E7AB13FD3 /* .gitkeep */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		560EAA4F2B79CB49C0DF91F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F7B197F0A62FC9D23F02A66 /* PennyJar.app */,
+				AFE4DBBCDEF6969943E58FDF /* PennyJarTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A00D99008C2EBB8502C4568 /* Accounts */ = {
+			isa = PBXGroup;
+			children = (
+				E287C5987968BE1092297F6A /* .gitkeep */,
+			);
+			path = Accounts;
+			sourceTree = "<group>";
+		};
+		5A972BB0049AD66A1BFF66ED /* Formatters */ = {
+			isa = PBXGroup;
+			children = (
+				24088A3D4BA696F58CB00AD5 /* .gitkeep */,
+			);
+			path = Formatters;
+			sourceTree = "<group>";
+		};
+		64A5226115923F6ED8E5E8DD /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				B5E9E8501D4E64A14EE5E5F2 /* .gitkeep */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		64E269F1289E2458F91F86D3 /* Accounts */ = {
+			isa = PBXGroup;
+			children = (
+				AB319BAF9ED0F91BC12FE5F1 /* .gitkeep */,
+			);
+			path = Accounts;
+			sourceTree = "<group>";
+		};
+		6AB8819C43FED907A0618FCA /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				7127E6EF7A9C7D8DF8FDE489 /* Components */,
+				F04F5244C87E9C334338B7B5 /* Extensions */,
+				5A972BB0049AD66A1BFF66ED /* Formatters */,
+				2DF76F8A454131BDC1EE139C /* Utils */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		6BFF43BFC171531E39B0B8F8 /* Books */ = {
+			isa = PBXGroup;
+			children = (
+				9047239C8DD910622416C7FB /* .gitkeep */,
+			);
+			path = Books;
+			sourceTree = "<group>";
+		};
+		7127E6EF7A9C7D8DF8FDE489 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				E179CDEBC3F2E03646F36668 /* .gitkeep */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		715D2A57C6DB0EA9DD27D6FC /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+				D9B2BA1499EDA3CF8258DE97 /* .gitkeep */,
+				85778883882924B6F3F486F8 /* Finance.swift */,
+			);
+			path = UseCases;
+			sourceTree = "<group>";
+		};
+		75471C55A42890695E467316 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				A3E002DCFEF7D122CF24D042 /* Entities */,
+				D4E3115BAD070B95D3990D61 /* Export */,
+				EAF933AC7C252A2913C3F4C9 /* Persistence */,
+				F3AF62D1F000D2DC898DE2DD /* Repositories */,
+				45F9F1FD836E0FFF2E7FB40D /* UseCases */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		7F0BBAD6A30107634DAE275B /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				A189E9E307CC8144BE3FBE97 /* .gitkeep */,
+				B507597EAA63CBA295F40763 /* Account.swift */,
+				7A49BF2A43C9332F9D555B28 /* Budget.swift */,
+				2AACB09E0F77B6B536FA3FAB /* Category.swift */,
+				6BF1609CE9E2F95BCEE29250 /* Enums.swift */,
+				C9C39B7D53BFD59D4F60A5ED /* Ledger.swift */,
+				F67C9BBB6A589CB9D3DEFBEF /* Member.swift */,
+				4B975D20D7D8A9707E3EE24F /* Transaction.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		88D048798F32C17AFC9D325E /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				64E269F1289E2458F91F86D3 /* Accounts */,
+				6BFF43BFC171531E39B0B8F8 /* Books */,
+				AF6F891C2A19A91121EE5BAD /* Budget */,
+				995971B13FB75345B7309B2B /* Home */,
+				4AC029E1808B5AE9F3F279AA /* Mine */,
+				21F83920B2861C919996ADF4 /* Record */,
+				11B6CC1AED7CADD6F4E81664 /* Reports */,
+				EA52A735A3FE8A7C76E5BFC0 /* Transactions */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		8D5B88E80B47EA666239FC7C /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				F8E3B357D87A1724865A8983 /* .gitkeep */,
+				F36FA71E9830DBD7F03484F7 /* ModelContainer.swift */,
+				E66143AFDB04168ED18445D0 /* SeedData.swift */,
+			);
+			path = Persistence;
+			sourceTree = "<group>";
+		};
+		8ED74D1DD358877A7CFCD3A8 /* Books */ = {
+			isa = PBXGroup;
+			children = (
+				FAB5B77C085BA3BAE16E61E9 /* .gitkeep */,
+			);
+			path = Books;
+			sourceTree = "<group>";
+		};
+		974CA48492A9B518446C2EA6 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				04F84B826F6F3BEE54C3C519 /* Components */,
+				EA76B8814D8CAD8649817D88 /* Extensions */,
+				474EC765B5895FCD6E196599 /* Formatters */,
+				98516A76C9990D9ACD63D78B /* Utils */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		98516A76C9990D9ACD63D78B /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				CF2E2649CF95A4E180CDF07C /* .gitkeep */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		98C4D018C134138F61D82CFC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				699A16FBD3C3C1DFDCEB894F /* .gitkeep */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		995971B13FB75345B7309B2B /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				0BB3F54E24D16E7806240CF2 /* .gitkeep */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		A3E002DCFEF7D122CF24D042 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				563D81462D30C82F413EAC6E /* .gitkeep */,
+				E420FAD7757AE3CA52882770 /* EntityTests.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		AF6F891C2A19A91121EE5BAD /* Budget */ = {
+			isa = PBXGroup;
+			children = (
+				6E83ACABDA427B280F46518E /* .gitkeep */,
+			);
+			path = Budget;
+			sourceTree = "<group>";
+		};
+		BF9C62634D71B5300E7EBA8F /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				005B9437E1542681BF52840C /* .gitkeep */,
+				1CDD758F721EA288D818D380 /* TestFactory.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		D4E3115BAD070B95D3990D61 /* Export */ = {
+			isa = PBXGroup;
+			children = (
+				EE50688075AD505581BEB797 /* .gitkeep */,
+			);
+			path = Export;
+			sourceTree = "<group>";
+		};
+		D5F8EA0009649CA903C1DA15 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				DEC407F9E26E03553F443056 /* App */,
+				974CA48492A9B518446C2EA6 /* Common */,
+				75471C55A42890695E467316 /* Domain */,
+				88D048798F32C17AFC9D325E /* Features */,
+				BF9C62634D71B5300E7EBA8F /* Mocks */,
+				98C4D018C134138F61D82CFC /* Resources */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		DEC407F9E26E03553F443056 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				E6397E29F36E791A4A50BAFC /* .gitkeep */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		EA52A735A3FE8A7C76E5BFC0 /* Transactions */ = {
+			isa = PBXGroup;
+			children = (
+				522980588D2AFC3CD65A1C06 /* .gitkeep */,
+			);
+			path = Transactions;
+			sourceTree = "<group>";
+		};
+		EA76B8814D8CAD8649817D88 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8C987E9A49669C31C0C7276E /* .gitkeep */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		EAF933AC7C252A2913C3F4C9 /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				0F8A78E2080091DA27E18292 /* .gitkeep */,
+				D5A8B5EDFCE67FE8411E3970 /* PersistenceTests.swift */,
+			);
+			path = Persistence;
+			sourceTree = "<group>";
+		};
+		F04F5244C87E9C334338B7B5 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E001F608BF71BE8DB0DFEC04 /* .gitkeep */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F3AF62D1F000D2DC898DE2DD /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				FAE3F68EA5CEE200DE52E98A /* .gitkeep */,
+				74DCC7ADDDCA18497AA02652 /* RepositoryTests.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		FBD34460E16F52C331AF4BF7 /* Src */ = {
+			isa = PBXGroup;
+			children = (
+				170160CB197C4850F2E95E15 /* App */,
+				6AB8819C43FED907A0618FCA /* Common */,
+				323138D0155852532982AAD5 /* Domain */,
+				21D5E7CB7C73104A0898C7C0 /* Features */,
+				22FD49A817E54671E0DBA070 /* Resources */,
+			);
+			path = Src;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3A7188916DD57AF391030A81 /* PennyJar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2BB461DCD7F0845A222089F /* Build configuration list for PBXNativeTarget "PennyJar" */;
+			buildPhases = (
+				C5284720C89C11A5B312105E /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PennyJar;
+			packageProductDependencies = (
+			);
+			productName = PennyJar;
+			productReference = 3F7B197F0A62FC9D23F02A66 /* PennyJar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B6E7FD60D44680FD3C969DF1 /* PennyJarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA12DFFD0EF1ECBA214E3FA6 /* Build configuration list for PBXNativeTarget "PennyJarTests" */;
+			buildPhases = (
+				E86C988944DFCCA9A92B80EE /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC4B50F52AA21FD745CD815A /* PBXTargetDependency */,
+			);
+			name = PennyJarTests;
+			packageProductDependencies = (
+			);
+			productName = PennyJarTests;
+			productReference = AFE4DBBCDEF6969943E58FDF /* PennyJarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6DB24ADDDACD37AD8ADE7088 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+				};
+			};
+			buildConfigurationList = F58D9964758CD7883233371C /* Build configuration list for PBXProject "PennyJar" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 10CF962BD24A2AA7695C00C9;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 560EAA4F2B79CB49C0DF91F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3A7188916DD57AF391030A81 /* PennyJar */,
+				B6E7FD60D44680FD3C969DF1 /* PennyJarTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C5284720C89C11A5B312105E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11B9E4F651DD8E4179AB8311 /* Account.swift in Sources */,
+				B1FD33AACEDD64D7D19AE51B /* Budget.swift in Sources */,
+				B9401EA3E241DEC759DBCF6A /* Category.swift in Sources */,
+				02CC4FB1DD5C417D8B590060 /* Enums.swift in Sources */,
+				9131480C6D8C5694FF58566C /* Finance.swift in Sources */,
+				8D39179875ACE2390B84B4D0 /* Ledger.swift in Sources */,
+				777297821871FE33D4542164 /* Member.swift in Sources */,
+				B9F3D291D4563F98F030EC30 /* ModelContainer.swift in Sources */,
+				6762A66515D61C355F271AE2 /* PennyJarApp.swift in Sources */,
+				6E759FB91B0274DD3498E364 /* Repository.swift in Sources */,
+				DCE12EFEA664560FD8B55603 /* RootTabView.swift in Sources */,
+				C0263EE4D806DB551CFA2D93 /* SeedData.swift in Sources */,
+				A7E4E091BA3E1AC91781388B /* Transaction.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E86C988944DFCCA9A92B80EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC7C91902BC199CE407569EF /* EntityTests.swift in Sources */,
+				95E8112822B9865395A2B92C /* FinanceTests.swift in Sources */,
+				F8B16FFEFEC04E7F9EB20882 /* PersistenceTests.swift in Sources */,
+				202A24C1A67897E1ECA3B435 /* RepositoryTests.swift in Sources */,
+				DA3567985975B596D0D72057 /* TestFactory.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CC4B50F52AA21FD745CD815A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3A7188916DD57AF391030A81 /* PennyJar */;
+			targetProxy = F0525DC043DF99A46F400FBA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0A8F4CD1CCA0F795C8604B25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zcworkspace.pennyjar.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PennyJar.app/PennyJar";
+			};
+			name = Debug;
+		};
+		0F6EC8B00ED2D33940BDA663 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Penny Jar";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zcworkspace.pennyjar;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5629B18E5BE020175AEA6393 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zcworkspace.pennyjar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		7DEE4E10CD46231F72E510C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zcworkspace.pennyjar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		AC68209AC896F742EDD0750B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zcworkspace.pennyjar.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PennyJar.app/PennyJar";
+			};
+			name = Release;
+		};
+		CB39E67886087343187AEB7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Penny Jar";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zcworkspace.pennyjar;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA12DFFD0EF1ECBA214E3FA6 /* Build configuration list for PBXNativeTarget "PennyJarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A8F4CD1CCA0F795C8604B25 /* Debug */,
+				AC68209AC896F742EDD0750B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E2BB461DCD7F0845A222089F /* Build configuration list for PBXNativeTarget "PennyJar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB39E67886087343187AEB7D /* Debug */,
+				0F6EC8B00ED2D33940BDA663 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F58D9964758CD7883233371C /* Build configuration list for PBXProject "PennyJar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DEE4E10CD46231F72E510C9 /* Debug */,
+				5629B18E5BE020175AEA6393 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6DB24ADDDACD37AD8ADE7088 /* Project object */;
+}
